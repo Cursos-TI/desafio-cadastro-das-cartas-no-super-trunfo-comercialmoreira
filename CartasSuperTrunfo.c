@@ -1,25 +1,31 @@
 #include <stdio.h>
 int main() {
+
 // declaração das variáveis carta 1 
-    char estado[30] = "Ceará";
-    char cod_carta[5] = "A5R";
+    char estado[3] = "A";
+    char cod_carta[5] = "A01";
     char nome_cidade[20] = "Fortaleza";
     int populacao = 2500000;
     float area = 313.8;
     float pib = 73.4;
     int numpontos_turisticos = 15;
+
 // declaração das variaveis carta 2
-    char estado2[30] = "Paraná";
-    char cod_carta2[5] = "BT2";
+    char estado2[3] = "B";
+    char cod_carta2[5] = "B01";
     char nome_cidade2[20] = "Maringá";
     int populacao2 = 409657;
     float area2 = 487.9;
     float pib2 = 8.26;
     int numpontos_turisticos2 = 7;
 
+// Boas-vindas ao jogador
+
+    printf("Bem Vindo ao Super Trunfo - Países\n");
+
 //coleta e armazenamento de dados carta 1    
 
-    printf("Digite o estado da primeira carta: \n");
+    printf("\nDigite o estado da primeira carta: EX.'A' \n");
     scanf(" %s", estado);
 
     printf("Digite o código da primeira carta: \n");
@@ -42,7 +48,7 @@ int main() {
 
 // coleta e armazenamento de dados carta 2
 
-    printf("Digite o estado da segunda carta: \n");
+    printf("\nDigite o estado da segunda carta: EX.'B'\n");
     scanf(" %s", estado2);
 
     printf("Digite o código da segunda carta: \n");
