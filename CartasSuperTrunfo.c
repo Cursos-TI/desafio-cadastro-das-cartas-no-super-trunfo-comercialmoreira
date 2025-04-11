@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
 // declaração das variáveis carta 1 
-    char estado[20] = "Ceará";
+    char estado[30] = "Ceará";
     char cod_carta[5] = "A5R";
     char nome_cidade[20] = "Fortaleza";
     int populacao = 2500000;
@@ -9,7 +9,7 @@ int main() {
     float pib = 73.4;
     int numpontos_turisticos = 15;
 // declaração das variaveis carta 2
-    char estado2[20] = "Paraná";
+    char estado2[30] = "Paraná";
     char cod_carta2[5] = "BT2";
     char nome_cidade2[20] = "Maringá";
     int populacao2 = 409657;
