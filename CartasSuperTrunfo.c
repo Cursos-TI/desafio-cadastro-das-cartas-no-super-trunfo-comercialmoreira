@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main() {
 
 // declaração das variáveis carta 1 
@@ -21,7 +22,7 @@ int main() {
 
 // Boas-vindas ao jogador
 
-    printf("Bem Vindo ao Super Trunfo - Países\n");
+    printf("Bem Vindo ao Super Trunfo\n");
 
 //coleta e armazenamento de dados carta 1    
 
